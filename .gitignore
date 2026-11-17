@@ -1,0 +1,9 @@
+@"
+public/
+resources/_gen/
+.hugo_build.lock
+node_modules/
+.env
+samconfig.toml
+*.pem
+"@ | Out-File -Encoding utf8 .gitignore

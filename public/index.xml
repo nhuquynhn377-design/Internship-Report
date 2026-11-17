@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Setting up an AWS account on Create a new AWS account.</title>
+		<title>Internship Report on Internship Report.</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content in Setting up an AWS account on Create a new AWS account.</description>
+		<description>Recent content in Internship Report on Internship Report.</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Week 7 Worklog</title>
+				<link>http://localhost:1313/1-worklog/1.7-week7-worklog/1.7-week_index/</link>
+				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/1-worklog/1.7-week7-worklog/1.7-week_index/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; 21/09/2026 - 25/09/2026&lt;/p&gt;&#xA;&lt;h3 id=&#34;week-7-objectives&#34;&gt;Week 7 Objectives:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understand monitoring with Amazon CloudWatch: metrics, logs, alarms, and dashboards.&lt;/li&gt;&#xA;&lt;li&gt;Set up alerts for the web server and backup jobs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tasks-completed&#34;&gt;Tasks Completed:&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Date&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Task&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Reference Material&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;21/09/2026&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Study CloudWatch metrics, log groups, and alarms.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://cloudjourney.awsstudygroup.com/&#34;&gt;https://cloudjourney.awsstudygroup.com/&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;22/09/2026&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Review the metrics of EC2, the ALB, and the Auto Scaling Group.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://cloudjourney.awsstudygroup.com/&#34;&gt;https://cloudjourney.awsstudygroup.com/&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;23/09/2026&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Create CloudWatch alarms (CPU, health check) with SNS notifications.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://cloudjourney.awsstudygroup.com/&#34;&gt;https://cloudjourney.awsstudygroup.com/&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;24/09/2026&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Create a dashboard to track the health of the web server.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://cloudjourney.awsstudygroup.com/&#34;&gt;https://cloudjourney.awsstudygroup.com/&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;25/09/2026&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Monitor backup job results and receive notifications when a backup fails.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;a href=&#34;https://cloudjourney.awsstudygroup.com/&#34;&gt;https://cloudjourney.awsstudygroup.com/&lt;/a&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;week-7-achievements&#34;&gt;Week 7 Achievements:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built a dashboard and alerts to monitor the health of the web server.&lt;/li&gt;&#xA;&lt;li&gt;Received notifications when incidents occurred or backup jobs failed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 	</channel>
 </rss>
