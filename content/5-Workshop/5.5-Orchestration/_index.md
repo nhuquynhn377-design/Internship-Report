@@ -303,7 +303,23 @@ Verify:
 2. Go to **Step Functions** → **State machines** → select the state machine → the execution named `B001` → status **Succeeded**. Open **Graph view** to see the steps in green.
 3. `aws dynamodb scan --table-name $table` shows `B001` with `status = DONE`.
 
-![Successful execution](/images/5-Workshop/5.5-Orchestration/execution-success.png)
+**Order B001 execution completed successfully**
+
+![Execution B001 has status Succeeded](/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
+
+**Workflow execution steps**
+
+![Graph view showing successful SendCustomerEmail and MarkDone steps](/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
+
+Both `SendCustomerEmail` and `MarkDone` completed successfully.
+The failure-handling branch was not executed in this run.
+
+**Order state in DynamoDB**
+
+![DynamoDB records order B001 with status DONE](/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
+
+The `B001` record contains `status = DONE`, a `doneAt` field,
+and `emailCount = 1`.
 
 **Case 2: duplicate order**
 
@@ -314,6 +330,8 @@ sam logs --stack-name order-system --name ProcessOrderFn --tail
 
 The log shows `Duplicate order, skipping: B001`, and no second email is sent.
 Press `Ctrl+C` to exit.
+
+![Successful execution](/images/5-Workshop/5.5-Orchestration/execution-success.png)
 
 **Case 3: email sending failure**
 

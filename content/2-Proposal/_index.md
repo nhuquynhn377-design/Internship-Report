@@ -1,9 +1,9 @@
 ---
-title : "Proposal"
-date : 2026
-weight : 2
-chapter : false
-pre : " <b> 2. </b> "
+title: "Proposal"
+date: 2026-08-08
+weight: 2
+chapter: false
+pre: "<b> 2. </b>"
 ---
 
 # Design and Implementation of a Fault-Tolerant, Monitored Event-Driven Order Processing Architecture on AWS, with Experimental Evaluation

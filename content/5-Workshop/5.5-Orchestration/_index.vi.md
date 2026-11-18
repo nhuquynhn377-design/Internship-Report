@@ -303,7 +303,23 @@ Kiểm tra:
 2. Vào **Step Functions** → **State machines** → chọn state machine → execution tên `B001` → trạng thái **Succeeded**, mở **Graph view** để thấy các bước màu xanh.
 3. `aws dynamodb scan --table-name $table` cho thấy `B001` có `status = DONE`.
 
-![Execution thành công](/images/5-Workshop/5.5-Orchestration/execution-success.png)
+**Execution của đơn hàng B001 hoàn tất thành công**
+
+![Execution B001 có trạng thái Succeeded](/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
+
+**Các bước xử lý trong quy trình**
+
+![Graph view thể hiện SendCustomerEmail và MarkDone thành công](/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
+
+Hai bước `SendCustomerEmail` và `MarkDone` hoàn tất thành công.
+Nhánh xử lý lỗi không được thực thi trong lần chạy này.
+
+**Trạng thái đơn hàng trong DynamoDB**
+
+![DynamoDB ghi nhận đơn B001 với trạng thái DONE](/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
+
+Bản ghi `B001` có `status = DONE`, trường `doneAt` và `emailCount = 1`.
+
 
 **Trường hợp 2: gửi trùng đơn**
 
@@ -314,6 +330,9 @@ sam logs --stack-name order-system --name ProcessOrderFn --tail
 
 Log hiển thị `Don trung, bo qua: B001`, không có email thứ hai.
 Nhấn `Ctrl+C` để thoát.
+
+![Execution thành công](/images/5-Workshop/5.5-Orchestration/execution-success.png)
+
 
 **Trường hợp 3: lỗi gửi email**
 

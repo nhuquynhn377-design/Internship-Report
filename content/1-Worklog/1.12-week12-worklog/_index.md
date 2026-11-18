@@ -19,7 +19,7 @@ pre: " <b> 1.12. </b> "
 |------|------|--------------------|
 | 26/10/2026 | Complete the workshop: rerun every step from start to finish to confirm that it works correctly.  | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 | 27/10/2026 | Review the content and make the presentation style and terminology consistent across sections.  | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 28/10/2026 | Fix minor issues: formatting, typos, screenshots, and broken links. | [AWS Study Group](https://cloudjourney.awsstudygroup.com/) |
+| 28/10/2026 | Fix minor issues: formatting, typos, screenshots, and broken links. | [http://cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 | 29/10/2026 | Clean up resources, check costs, and compare the Vietnamese version with the English version.  | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 | 30/10/2026 | Finalize the documents, push the source to GitHub, and submit the product.  | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 

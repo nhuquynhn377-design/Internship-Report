@@ -194,3 +194,11 @@ div.notices.info p {
     background: #FFF2DB;
 }
 
+/* Điều chỉnh kích thước ảnh Avatar */
+img[src*="003.jpg"] {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}

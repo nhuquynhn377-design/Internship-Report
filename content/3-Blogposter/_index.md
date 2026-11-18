@@ -11,7 +11,7 @@ pre: " <b> 3. </b> "
 This section lists and introduces the blogs I translated and published on [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj).
 
 ### [Blog 1 ](3.1-Blog1/)
-
++
 
 ### [Blog 2 ](3.2-Blog2/)
 
