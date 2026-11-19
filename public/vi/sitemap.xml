@@ -54,6 +54,90 @@
                 href="http://localhost:1313/vi/1-worklog/1.1-week1-worklog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.1-introduction/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.1-introduction/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.1-introduction/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.3-sqs-dlq/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-01/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-01/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/</loc>
     <lastmod>2026-10-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -93,6 +177,90 @@
                 href="http://localhost:1313/vi/2-proposal/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.1-introduction/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.1-introduction/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.1-introduction/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.3-sqs-dlq/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-02/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-02/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-02/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/1-worklog/1.3-week3-worklog/</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -119,6 +287,18 @@
                 href="http://localhost:1313/vi/3-blogposter/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.1-introduction/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.1-introduction/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.1-introduction/step-03/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -129,6 +309,78 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-03/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.3-sqs-dlq/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-03/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-03/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-03/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-03/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-03/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-03/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/1-worklog/1.4-week4-worklog/</loc>
@@ -157,6 +409,18 @@
                 href="http://localhost:1313/vi/4-eventpatricipated/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-04/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/</loc>
     <xhtml:link
                 rel="alternate"
@@ -167,6 +431,78 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/5-workshop/5.4-idempotency/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-04/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-04/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-04/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.1-introduction/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.1-introduction/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.1-introduction/step-04/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.3-sqs-dlq/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-04/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-04/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-04/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/5-workshop/</loc>
@@ -195,6 +531,18 @@
                 href="http://localhost:1313/vi/1-worklog/1.5-week5-worklog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-05/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/</loc>
     <xhtml:link
                 rel="alternate"
@@ -205,6 +553,66 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/5-workshop/5.5-orchestration/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-05/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.3-sqs-dlq/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.3-sqs-dlq/step-05/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-05/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-05/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-05/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/6-self-assessment/</loc>
@@ -233,6 +641,18 @@
                 href="http://localhost:1313/vi/1-worklog/1.6-week6-worklog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-06/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-06/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/</loc>
     <xhtml:link
                 rel="alternate"
@@ -243,6 +663,54 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/5-workshop/5.6-monitoring/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-06/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.2-prerequisite/step-06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.2-prerequisite/step-06/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-06/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-06/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.4-idempotency/step-06/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.4-idempotency/step-06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.4-idempotency/step-06/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.5-orchestration/step-06/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.5-orchestration/step-06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.5-orchestration/step-06/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/1-worklog/1.7-week7-worklog/1.7-week7_index/</loc>
@@ -258,6 +726,18 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/7-sharing-and-feedback/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-07/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-07/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-07/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/</loc>
@@ -297,6 +777,18 @@
                 href="http://localhost:1313/vi/5-workshop/5.8-clean-up/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.6-monitoring/step-08/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.6-monitoring/step-08/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.6-monitoring/step-08/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vi/1-worklog/1.9-week9-worklog/</loc>
     <lastmod>2026-10-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -308,6 +800,18 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/vi/1-worklog/1.9-week9-worklog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vi/5-workshop/5.7-experiment/step-09/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/5-workshop/5.7-experiment/step-09/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/vi/5-workshop/5.7-experiment/step-09/"
                 />
   </url><url>
     <loc>http://localhost:1313/vi/1-worklog/1.10-week10-worklog/</loc>

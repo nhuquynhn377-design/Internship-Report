@@ -103,7 +103,8 @@ a:hover {
 }
 
 /* Điều chỉnh kích thước ảnh Avatar */
-img[src*="003.jpg"] {
+img[src*="003.jpg"]
+{
     width: 100%;
     max-width: 500px;
     height: auto;
