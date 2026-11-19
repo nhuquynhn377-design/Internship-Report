@@ -13,7 +13,7 @@ pre: " <b> 5.2.5 </b> "
 2. Chọn *Zero spend budget* hoặc *Monthly cost budget* (ví dụ 5 USD).
 3. Nhập email nhận cảnh báo.
 
-![Tạo budget](/images/5-Workshop/5.2-Prerequisite/004.png)
+![Tạo budget](/Intership-Report/images/5-Workshop/5.2-Prerequisite/004.png)
 
 <!-- workshop-detail:v1:begin -->
 ## Mục đích của Budget

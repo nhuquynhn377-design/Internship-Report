@@ -9,7 +9,7 @@ pre: " <b> 5.1.2 </b> "
 
 [← Section contents](../)
 
-{{< figure src="/images/5-Workshop/5.1-Introduction/100.png" alt="Overall architecture" >}}
+{{< figure src="/Intership-Report/images/5-Workshop/5.1-Introduction/100.png" alt="Overall architecture" >}}
 
 <!-- workshop-detail:v1:begin -->
 ## Reading the architecture

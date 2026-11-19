@@ -27,7 +27,7 @@ chapter: false
 
 **Thời gian thực tập:** Từ 08/08/2026 đến 31/10/2026
 
-![Ảnh đại diện](/images/avatar/avatar.jpg)
+![Ảnh đại diện](/Intership-Report/images/avatar/avatar.jpg)
 
 ### Nội dung báo cáo
 

@@ -49,7 +49,7 @@ aws sqs get-queue-attributes --queue-url $dlq --attribute-names ApproximateNumbe
 
 Hoặc vào Console → hàng đợi DLQ → **Send and receive messages** → **Poll for messages**.
 
-![Tin nhắn trong DLQ](/images/5-Workshop/5.3-SQS-DLQ/dlq-message.png)
+![Tin nhắn trong DLQ](/Intership-Report/images/5-Workshop/5.3-SQS-DLQ/dlq-message.png)
 
 > Các số liệu của SQS là xấp xỉ và có thể trễ vài chục giây.
 

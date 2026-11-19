@@ -72,6 +72,6 @@ $response | Select-Object StatusCode, Content
 
 **Triển khai bổ sung:** stack order-api-evidence dùng lại tài nguyên order-orchestration-evidence. Ảnh và số liệu bên dưới thuộc đợt 13/11/2026.
 
-![Triển khai hai API so sánh](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-api-deploy-success.png)
+![Triển khai hai API so sánh](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-api-deploy-success.png)
 
 <!-- evidence-deployment:end -->

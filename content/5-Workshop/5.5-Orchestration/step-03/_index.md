@@ -25,13 +25,13 @@ Keep the same answers as last time. When asked for the two parameters, enter:
 | SenderEmail | The email verified in section 5.2 |
 | AdminEmail | The email that receives alerts (can be the same email as above) |
 
-![Deploy result](/images/5-Workshop/5.5-Orchestration/deploy-result.png)
+![Deploy result](/Intership-Report/images/5-Workshop/5.5-Orchestration/deploy-result.png)
 
 **Confirm the SNS subscription:** AWS sends an email titled *AWS Notification -
 Subscription Confirmation* to `AdminEmail`. Open the email and click **Confirm
 subscription**, otherwise you will not receive alerts.
 
-![Confirm SNS](/images/5-Workshop/5.5-Orchestration/sns-confirm.png)
+![Confirm SNS](/Intership-Report/images/5-Workshop/5.5-Orchestration/sns-confirm.png)
 
 ## Check the two kinds of email confirmation
 

@@ -15,11 +15,11 @@ Each mode used **20 measured requests**, concurrency **1**, a **1,500 ms pause a
 
 ### Synchronous results
 
-![Synchronous results for 20 orders](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-sync-20.png)
+![Synchronous results for 20 orders](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-sync-20.png)
 
 ### Asynchronous results
 
-[Asynchronous results for 20 orders](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-async-20.png)
+[Asynchronous results for 20 orders](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-async-20.png)
 
 ### Comparison
 
@@ -37,7 +37,7 @@ Each mode used **20 measured requests**, concurrency **1**, a **1,500 ms pause a
 | Average approximate completion (ms) | 122.75 | 445.55 |
 | P95 approximate completion (ms) | 138 | 516 |
 
-[Comparison with matching test settings](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-summary.png)
+[Comparison with matching test settings](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-summary.png)
 
 **Observation:** the asynchronous API responded faster in this run, while approximate completion took longer. HTTP 202 confirms acceptance; DONE is checked separately in DynamoDB. Client API latency excludes the pacing pause. Approximate completion uses application createdAt and doneAt, with different measurement boundaries; it is neither inbox delivery time nor exact Step Functions duration.
 

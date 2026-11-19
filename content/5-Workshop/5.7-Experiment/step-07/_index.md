@@ -13,31 +13,31 @@ pre: " <b> 5.7.7 </b> "
 
 Order **failure-proof-20261113-222244-4343a2** used **not-an-email**. SES returned **SesV2.BadRequestException**, HTTP **400**, cause **Missing final '@domain'**. Event history shows task rescheduling and execution after failures. SDK Attempt Count: 1 is not the total Step Functions retry count.
 
-![SES error cause and retry history](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-ses-error-history.png)
+![SES error cause and retry history](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-ses-error-history.png)
 
 ### Failure branch
 
 Catch routed to **MarkFailed** and **NotifyAdminFailure**, both successful. The workflow terminated at **OrderFailed**; MarkDone was skipped.
 
-[Workflow failure-handling branch](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-workflow-graph.png)
+[Workflow failure-handling branch](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-workflow-graph.png)
 
 The SNS email contains the matching order ID and was sent by NotifyAdminFailure.
 
-[Alert email from the workflow](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-admin-email.png)
+[Alert email from the workflow](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-admin-email.png)
 
 ### DLQ and CloudWatch Alarm
 
 A separate test used invalid JSON: **not-json-dlq-proof-20261113-223327-eed369**. Inspect the message in **order-orchestration-evidence-OrdersDLQ-Kbv9OO2FitbU**; the screenshot should show both the queue name and message body.
 
-[Malformed message in the identified DLQ](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-malformed-message.png)
+[Malformed message in the identified DLQ](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-malformed-message.png)
 
 Alarm **order-orchestration-evidence-dlq-proof** monitored the DLQ ApproximateNumberOfMessagesVisible metric and entered **ALARM** at **November 13, 2026, 15:39:57 UTC**.
 
-[Triggered DLQ alarm](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-cloudwatch-alarm.png)
+[Triggered DLQ alarm](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-cloudwatch-alarm.png)
 
 The CloudWatch email delivered through SNS records the same alarm and transition time, with datapoint **1** exceeding threshold **0**. This is distinct from the workflow notification above. These screenshots do not measure alert latency.
 
-[CloudWatch alarm email via SNS](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-alarm-email.png)
+[CloudWatch alarm email via SNS](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-alarm-email.png)
 
 ## Follow two distinct failure paths
 

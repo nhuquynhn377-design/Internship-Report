@@ -18,9 +18,9 @@ sam deploy --region ap-southeast-1 --no-fail-on-empty-changeset
 if ($LASTEXITCODE -ne 0) { throw 'Inspect the CloudFormation deployment events.' }
 ```
 
-![Second deploy](/images/5-Workshop/5.4-Idempotency/deploy-result.png)
+![Second deploy](/Intership-Report/images/5-Workshop/5.4-Idempotency/deploy-result.png)
 
-![SQS trigger enabled for the Lambda function](/images/5-Workshop/5.4-Idempotency/sqs-trigger-enabled.png)
+![SQS trigger enabled for the Lambda function](/Intership-Report/images/5-Workshop/5.4-Idempotency/sqs-trigger-enabled.png)
 
 ## Verify that the update reads the intended queue
 

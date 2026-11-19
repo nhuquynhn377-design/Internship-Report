@@ -13,31 +13,31 @@ pre: " <b> 5.7.7 </b> "
 
 Đơn **failure-proof-20261113-222244-4343a2** dùng địa chỉ **not-an-email**. SES trả **SesV2.BadRequestException**, HTTP **400**, nguyên nhân **Missing final '@domain'**. Event history cho thấy tác vụ được lập lịch và thực thi lại sau lỗi. SDK Attempt Count: 1 không phải tổng số lần Step Functions thử lại.
 
-![Nguyên nhân lỗi SES và lịch sử thử lại](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-ses-error-history.png)
+![Nguyên nhân lỗi SES và lịch sử thử lại](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-ses-error-history.png)
 
 ### Nhánh xử lý lỗi
 
 Catch chuyển sang **MarkFailed**, rồi **NotifyAdminFailure**; cả hai thành công. Quy trình kết thúc tại **OrderFailed**; MarkDone không chạy trên nhánh này.
 
-[Nhánh xử lý lỗi của quy trình](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-workflow-graph.png)
+[Nhánh xử lý lỗi của quy trình](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-workflow-graph.png)
 
 Email SNS chứa đúng mã đơn, do bước NotifyAdminFailure gửi.
 
-[Email cảnh báo từ quy trình](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-admin-email.png)
+[Email cảnh báo từ quy trình](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/failure-admin-email.png)
 
 ### DLQ và CloudWatch Alarm
 
 Phép thử riêng dùng thông điệp **not-json-dlq-proof-20261113-223327-eed369**, không phải JSON hợp lệ. Kiểm tra thông điệp trong DLQ **order-orchestration-evidence-OrdersDLQ-Kbv9OO2FitbU**; ảnh cần hiển thị cả tên hàng đợi và nội dung.
 
-[Thông điệp lỗi trong đúng DLQ](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-malformed-message.png)
+[Thông điệp lỗi trong đúng DLQ](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-malformed-message.png)
 
 Alarm **order-orchestration-evidence-dlq-proof** giám sát ApproximateNumberOfMessagesVisible của DLQ và chuyển sang **ALARM** lúc **13/11/2026 15:39:57 UTC**.
 
-[Alarm DLQ được kích hoạt](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-cloudwatch-alarm.png)
+[Alarm DLQ được kích hoạt](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-cloudwatch-alarm.png)
 
 Email CloudWatch qua SNS ghi cùng tên alarm và mốc chuyển trạng thái, datapoint **1** vượt ngưỡng **0**. Đây là cảnh báo CloudWatch, khác email do workflow gửi ở trên. Bộ ảnh này chưa đo độ trễ cảnh báo.
 
-[Email cảnh báo CloudWatch qua SNS](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-alarm-email.png)
+[Email cảnh báo CloudWatch qua SNS](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/dlq-alarm-email.png)
 
 ## Hai lỗi, hai đường báo khác nhau
 

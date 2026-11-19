@@ -21,7 +21,7 @@ aws sts get-caller-identity
 Enter the Access Key, Secret Key, region `ap-southeast-1`, and output `json`.
 The result of the last command should display your account information.
 
-![Verify identity](/images/5-Workshop/5.2-Prerequisite/002.png)
+![Verify identity](/Intership-Report/images/5-Workshop/5.2-Prerequisite/002.png)
 
 >Do not push the Access Key to GitHub. Delete or deactivate the key after you finish the workshop.
 

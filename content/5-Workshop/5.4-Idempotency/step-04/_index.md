@@ -79,7 +79,7 @@ In GetItem output, `orderId.S` contains a string ID, `status.S` contains `PROCES
 
 ### Illustrations from the recorded run
 
-- [Data in DynamoDB](/images/5-Workshop/5.4-Idempotency/dynamodbb-item.png)
-- [Lambda skips the resubmitted order A001](/images/5-Workshop/5.4-Idempotency/duplicate-logg.png)
-- [DynamoDB retains one A001 record after resubmission](/images/5-Workshop/5.4-Idempotency/duplicate-item.png)
-- [Invalid message found in the DLQ](/images/5-Workshop/5.4-Idempotency/dlqq-message.png)
+- [Data in DynamoDB](/Intership-Report/images/5-Workshop/5.4-Idempotency/dynamodbb-item.png)
+- [Lambda skips the resubmitted order A001](/Intership-Report/images/5-Workshop/5.4-Idempotency/duplicate-logg.png)
+- [DynamoDB retains one A001 record after resubmission](/Intership-Report/images/5-Workshop/5.4-Idempotency/duplicate-item.png)
+- [Invalid message found in the DLQ](/Intership-Report/images/5-Workshop/5.4-Idempotency/dlqq-message.png)

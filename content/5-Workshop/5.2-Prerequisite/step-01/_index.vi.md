@@ -66,7 +66,7 @@ Policy này rộng để thuận tiện cho môi trường thử nghiệm. Với
 hãy giới hạn `Resource` theo từng tài nguyên cụ thể.
 
 #### Tạo quyền (policy)
-![Tạo IAM policy](/images/5-Workshop/5.2-Prerequisite/001.png)
+![Tạo IAM policy](/Intership-Repot/images/5-Workshop/5.2-Prerequisite/001.png)
 
 <!-- workshop-detail:v1:begin -->
 ## Phân biệt quyền triển khai và quyền thực thi

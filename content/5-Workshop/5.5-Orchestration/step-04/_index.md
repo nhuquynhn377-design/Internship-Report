@@ -97,9 +97,9 @@ If the first check finds only `ExecutionStarted`, refresh the same execution. Fo
 
 ### Illustrations from the recorded run
 
-- [Execution B001 has status Succeeded](/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
-- [Graph view showing successful SendCustomerEmail and MarkDone steps](/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
-- [DynamoDB records order B001 with status DONE](/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
-- [Successful execution](/images/5-Workshop/5.5-Orchestration/execution-success.png)
-- [Failed execution](/images/5-Workshop/5.5-Orchestration/execution-failed.png)
-- [Alert email](/images/5-Workshop/5.5-Orchestration/alert-email.png)
+- [Execution B001 has status Succeeded](/Intership-Report/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
+- [Graph view showing successful SendCustomerEmail and MarkDone steps](/Intership-Report/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
+- [DynamoDB records order B001 with status DONE](/Intership-Report/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
+- [Successful execution](/Intership-Report/images/5-Workshop/5.5-Orchestration/execution-success.png)
+- [Failed execution](/Intership-Report/images/5-Workshop/5.5-Orchestration/execution-failed.png)
+- [Alert email](/Intership-Report/images/5-Workshop/5.5-Orchestration/alert-email.png)

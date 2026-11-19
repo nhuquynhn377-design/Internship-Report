@@ -11,15 +11,15 @@ pre: " <b> 5.7.6 </b> "
 
 Identical messages for **dup-proof-20261113-220937-a7468d** were submitted to SQS **five times**. Results: execution **SUCCEEDED**, **one** successful SES task in that execution, DynamoDB **DONE**, and **emailCount = 1**.
 
-![Duplicate-test validation](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-validation.png)
+![Duplicate-test validation](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-validation.png)
 
 Logs show duplicates being skipped. Two workflow-started log lines do not establish two executions: Standard StartExecution with the same name and input can return an existing running execution.
 
-[Logs showing duplicate orders skipped](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-skip-logs.png)
+[Logs showing duplicate orders skipped](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-skip-logs.png)
 
 The inbox received a confirmation with the matching order ID. These observations support duplicate handling in this test, not guaranteed exactly-once email delivery under all failures.
 
-[Received confirmation email](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-confirmation-email.png)
+[Received confirmation email](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-confirmation-email.png)
 
 ## Replay one purchase with a stable identity
 
