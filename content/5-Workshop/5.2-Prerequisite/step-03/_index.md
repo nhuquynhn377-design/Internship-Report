@@ -23,6 +23,7 @@ The result of the last command should display your account information.
 
 ![Verify identity](/Internship-Report/images/5-Workshop/5.2-Prerequisite/002.png)
 
+
 >Do not push the Access Key to GitHub. Delete or deactivate the key after you finish the workshop.
 
 <!-- workshop-detail:v1:begin -->

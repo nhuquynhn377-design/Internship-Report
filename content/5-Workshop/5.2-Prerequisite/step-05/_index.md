@@ -15,6 +15,7 @@ pre: " <b> 5.2.5 </b> "
 
 ![Create budget](/Internship-Report/images/5-Workshop/5.2-Prerequisite/004.png)
 
+
 <!-- workshop-detail:v1:begin -->
 ## Purpose of a budget
 

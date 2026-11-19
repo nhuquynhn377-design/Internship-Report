@@ -68,6 +68,7 @@ Set-Clipboard -Value $policyJson
 
 ![Create IAM policy](/Internship-Report/images/5-Workshop/5.2-Prerequisite/001.png)
 
+
 <!-- workshop-detail:v1:begin -->
 ## Deployment permissions versus runtime permissions
 
