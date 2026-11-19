@@ -18,9 +18,9 @@ sam deploy --region ap-southeast-1 --no-fail-on-empty-changeset
 if ($LASTEXITCODE -ne 0) { throw 'Inspect the CloudFormation deployment events.' }
 ```
 
-![Deploy lần hai](/Intership-Report/images/5-Workshop/5.4-Idempotency/deploy-result.png)
+![Deploy lần hai](/Internship-Report/images/5-Workshop/5.4-Idempotency/deploy-result.png)
 
-![Trigger SQS của Lambda đang bật](/Intership-Report/images/5-Workshop/5.4-Idempotency/sqs-trigger-enabled.png)
+![Trigger SQS của Lambda đang bật](/Internship-Report/images/5-Workshop/5.4-Idempotency/sqs-trigger-enabled.png)
 
 ## Xác nhận bản cập nhật đang đọc đúng hàng đợi
 

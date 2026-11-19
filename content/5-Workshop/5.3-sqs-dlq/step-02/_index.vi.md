@@ -31,7 +31,7 @@ Trả lời các câu hỏi như sau:
 
 Khi hoàn tất, SAM in ra `QueueUrl` và `DlqUrl`.
 
-![Kết quả deploy](/Intership-Report/images/5-Workshop/5.3-SQS-DLQ/deploy-result.png)
+![Kết quả deploy](/Internship-Report/images/5-Workshop/5.3-SQS-DLQ/deploy-result.png)
 
 ## Theo dõi từ lúc build đến khi có URL
 

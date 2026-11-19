@@ -25,13 +25,13 @@ Giữ các câu trả lời như lần trước. Khi được hỏi hai tham s�
 | SenderEmail | Email đã xác minh ở mục 5.2 |
 | AdminEmail | Email nhận cảnh báo (có thể là cùng email trên) |
 
-![Kết quả deploy]( /Intership-Report/images/5-Workshop/5.5-Orchestration/deploy-result.png)
+![Kết quả deploy]( /Internship-Report/images/5-Workshop/5.5-Orchestration/deploy-result.png)
 
 **Xác nhận đăng ký SNS:** AWS gửi một email tiêu đề *AWS Notification -
 Subscription Confirmation* đến `AdminEmail`. Mở email và bấm **Confirm
 subscription**, nếu không bạn sẽ không nhận được cảnh báo.
 
-![Xác nhận SNS](/Intership-Report/images/5-Workshop/5.5-Orchestration/sns-confirm.png)
+![Xác nhận SNS](/Internship-Report/images/5-Workshop/5.5-Orchestration/sns-confirm.png)
 
 ## Kiểm tra hai loại xác nhận qua email
 

@@ -16,7 +16,7 @@ In the SES sandbox, use a verified sender identity. Recipients can be verified a
 3. Open the verification email from AWS and click the link.
 4. The identity status changes to *Verified*.
 
-![SES verified](/Intership-Report/images/5-Workshop/5.2-Prerequisite/003.png)
+![SES verified](/Internship-Report/images/5-Workshop/5.2-Prerequisite/003.png)
 
 <!-- workshop-detail:v1:begin -->
 ## Why email preparation matters

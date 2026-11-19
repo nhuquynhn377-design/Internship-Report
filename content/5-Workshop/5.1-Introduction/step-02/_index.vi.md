@@ -9,7 +9,7 @@ pre: " <b> 5.1.2 </b> "
 
 [← Mục lục phần này](../)
 
-{{< figure src="/Intership-Report/images/5-Workshop/5.1-Introduction/101.png" alt="Kiến trúc tổng thể" >}}
+{{< figure src="/Internship-Report/images/5-Workshop/5.1-Introduction/101.png" alt="Kiến trúc tổng thể" >}}
 
 <!-- workshop-detail:v1:begin -->
 ## Cách đọc sơ đồ kiến trúc

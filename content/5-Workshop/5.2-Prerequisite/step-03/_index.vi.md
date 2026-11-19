@@ -22,7 +22,7 @@ aws sts get-caller-identity
 Nhập Access Key, Secret Key, region ap-southeast-1, output json.
 Kết quả của lệnh cuối phải hiển thị thông tin tài khoản của bạn.
 
-![Kiểm tra danh tính](/Intership-Report/images/5-Workshop/5.2-Prerequisite/002.png)
+![Kiểm tra danh tính](/Internship-Report/images/5-Workshop/5.2-Prerequisite/002.png)
 
 
 Không đưa Access Key lên GitHub. Hãy xóa hoặc vô hiệu hóa key sau khi hoàn thành workshop.

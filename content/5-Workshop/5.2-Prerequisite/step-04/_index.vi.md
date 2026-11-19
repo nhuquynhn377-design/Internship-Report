@@ -16,7 +16,7 @@ Trong SES sandbox, dùng identity người gửi đã xác minh. Người nhận
 3. Mở email xác nhận từ AWS và bấm vào liên kết.
 4. Trạng thái identity chuyển sang *Verified*.
 
-![SES verified](/Intership-Report/images/5-Workshop/5.2-Prerequisite/003.png)
+![SES verified](/Internship-Report/images/5-Workshop/5.2-Prerequisite/003.png)
 
 <!-- workshop-detail:v1:begin -->
 ## Vì sao phải chuẩn bị email trước?

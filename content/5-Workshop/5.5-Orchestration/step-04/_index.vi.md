@@ -97,9 +97,9 @@ Nếu ở lần nhìn đầu chỉ thấy `ExecutionStarted`, hãy giữ nguyên
 
 ### Hình trong lần thực nghiệm gốc
 
-- [Execution B001 có trạng thái Succeeded](/Intership-Report/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
-- [Graph view thể hiện SendCustomerEmail và MarkDone thành công](/Intership-report/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
-- [DynamoDB ghi nhận đơn B001 với trạng thái DONE](/Intership-Report/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
-- [Execution thành công](/Intership-Report/images/5-Workshop/5.5-Orchestration/execution-success.png)
-- [Execution thất bại](/Intership-Report/images/5-Workshop/5.5-Orchestration/execution-failed.png)
-- [Email cảnh báo](/Intership-Report/images/5-Workshop/5.5-Orchestration/alert-email.png)
+- [Execution B001 có trạng thái Succeeded](/Internship-Report/images/5-Workshop/5.5-Orchestration/b001-execution-succeeded.png)
+- [Graph view thể hiện SendCustomerEmail và MarkDone thành công](/Internship-Report/images/5-Workshop/5.5-Orchestration/b001-workflow-graph.png)
+- [DynamoDB ghi nhận đơn B001 với trạng thái DONE](/Internship-Report/images/5-Workshop/5.5-Orchestration/b001-dynamodb-done.png)
+- [Execution thành công](/Internship-Report/images/5-Workshop/5.5-Orchestration/execution-success.png)
+- [Execution thất bại](/Internship-Report/images/5-Workshop/5.5-Orchestration/execution-failed.png)
+- [Email cảnh báo](/Internship-Report/images/5-Workshop/5.5-Orchestration/alert-email.png)

@@ -76,16 +76,16 @@ Mở một widget và xem Region, khoảng thời gian và dimension trong cấu
 
 Alarm và dashboard CREATE_COMPLETE; stack order-system UPDATE_COMPLETE. Đây là minh chứng triển khai.
 
-![Triển khai giám sát ban đầu](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h1.png)
+![Triển khai giám sát ban đầu](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h1.png)
 
 Ba alarm cũ ở OK và Actions enabled. Trạng thái này chưa chứng minh email đã được nhận.
 
-[Trạng thái ba alarm ban đầu](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h2.png)
+[Trạng thái ba alarm ban đầu](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h2.png)
 
 Dashboard order-workshop hiển thị hàng đợi, tuổi thông điệp, Step Functions và Lambda.
 
-[Dashboard ban đầu](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h3.png)
+[Dashboard ban đầu](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h3.png)
 
 Alarm order-sfn-failed ở ALARM, mốc cập nhật 31/10/2026 12:40:46 UTC. Không dùng mốc cũ này tính độ trễ của lần thử mới.
 
-[Alarm Step Functions ban đầu](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h4.png)
+[Alarm Step Functions ban đầu](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h4.png)

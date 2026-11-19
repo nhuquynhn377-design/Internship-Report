@@ -76,16 +76,16 @@ Open one widget and inspect its Region, time range and dimensions. A correct que
 
 Alarm/dashboard resources are CREATE_COMPLETE and order-system is UPDATE_COMPLETE, establishing successful deployment.
 
-![Original monitoring deployment](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h1.png)
+![Original monitoring deployment](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h1.png)
 
 The original alarms show OK and Actions enabled. This alone does not establish received email notifications.
 
-[Original three alarm states](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h2.png)
+[Original three alarm states](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h2.png)
 
 order-workshop displays queues, message age, Step Functions and Lambda metrics.
 
-[Original dashboard](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h3.png)
+[Original dashboard](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h3.png)
 
 order-sfn-failed is ALARM with an update timestamp of October 31, 2026, 12:40:46 UTC. This timestamp is not used to measure latency for the new run.
 
-[Original Step Functions alarm](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h4.png)
+[Original Step Functions alarm](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h4.png)

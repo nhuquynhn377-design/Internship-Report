@@ -13,7 +13,7 @@ pre: " <b> 5.3.3 </b> "
 2. You will see two queues whose names start with `order-system-`.
 3. Open the main queue → **Dead-letter queue** tab: the dead-letter queue is attached, with **Maximum receives = 3**.
 
-![SQS queues](/Intership-Report/images/5-Workshop/5.3-SQS-DLQ/queues.png)
+![SQS queues](/Internship-Report/images/5-Workshop/5.3-SQS-DLQ/queues.png)
 
 ## Compare the deployed values with the template
 

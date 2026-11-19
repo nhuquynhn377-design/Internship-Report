@@ -79,7 +79,7 @@ Trong kết quả GetItem, DynamoDB dùng ký hiệu kiểu dữ liệu. `orderI
 
 ### Hình trong lần thực nghiệm gốc
 
-- [DynamoDB ghi nhận đơn A001 với trạng thái PROCESSING](/Intership-Report/images/5-Workshop/5.4-Idempotency/dynamodbb-item.png)
-- [Lambda skips the resubmitted order A001](/Intership-Report/images/5-Workshop/5.4-Idempotency/duplicate-logg.png)
-- [DynamoDB retains one A001 record after resubmission](/Intership-Report/images/5-Workshop/5.4-Idempotency/duplicate-item.png)
-- [Thông điệp không hợp lệ xuất hiện trong DLQ](/Intership-Report/images/5-Workshop/5.4-Idempotency/dlqq-message.png)
+- [DynamoDB ghi nhận đơn A001 với trạng thái PROCESSING](/Internship-Report/images/5-Workshop/5.4-Idempotency/dynamodbb-item.png)
+- [Lambda skips the resubmitted order A001](/Internship-Report/images/5-Workshop/5.4-Idempotency/duplicate-logg.png)
+- [DynamoDB retains one A001 record after resubmission](/Internship-Report/images/5-Workshop/5.4-Idempotency/duplicate-item.png)
+- [Thông điệp không hợp lệ xuất hiện trong DLQ](/Internship-Report/images/5-Workshop/5.4-Idempotency/dlqq-message.png)

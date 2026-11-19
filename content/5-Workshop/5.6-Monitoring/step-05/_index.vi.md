@@ -13,31 +13,31 @@ Mã có trong thông điệp thử: **mon56-20261114-040056-316515**. Dashboard/
 
 **Dashboard bổ sung.** Có đủ bốn widget và legend; DLQ đã có giá trị 1 trong khoảng trước thử. Tại thời điểm chụp dashboard, biểu đồ Step Functions hiển thị ExecutionsFailed = 0; trang chi tiết alarm ghi nhận giá trị 1 ở lần chụp khác. Dashboard này chưa phản ánh kết quả cuối của mọi execution.
 
-![Dashboard bổ sung](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h5.png)
+![Dashboard bổ sung](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h5.png)
 
 **Step Functions.** Alarm order-monitoring-evidence-sfn-failed ở ALARM, biểu đồ ExecutionsFailed lên 1.
 
-[Alarm Step Functions](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h6.png)
+[Alarm Step Functions](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h6.png)
 
 **Lambda.** Alarm order-monitoring-evidence-lambda-errors ở ALARM, biểu đồ Errors lên 1. Riêng ảnh metric không chỉ ra nguyên nhân hoặc MessageId của invocation lỗi.
 
-[Alarm Lambda Errors](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h7.png)
+[Alarm Lambda Errors](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h7.png)
 
 **DLQ.** Đúng queue order-orchestration-evidence-OrdersDLQ-Kbv9OO2FitbU chứa body not-json-mon56-20261114-040056-316515. Ảnh đồng thời có thông điệp cũ; Receive count không được dùng làm số lần Lambda xử lý chính xác vì thao tác nhận ở console cũng ảnh hưởng bộ đếm.
 
-[Thông điệp thử trong DLQ](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h8.png)
+[Thông điệp thử trong DLQ](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h8.png)
 
 **Email ALARM Step Functions.** Email ghi datapoint 1 tại 13/11/2026 21:02 UTC và chuyển ALARM lúc 21:03:44 UTC. Đây là thông báo CloudWatch thực nhận. Chưa có mốc execution thất bại trong bộ ảnh này để tính độ trễ phát hiện.
 
-[Email ALARM Step Functions](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h9.png)
+[Email ALARM Step Functions](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h9.png)
 
 **Email ALARM của Lambda.** Email từ CloudWatch ghi nhận datapoint Errors = 1 tại 13/11/2026 21:01:00 UTC, vượt ngưỡng 0. Alarm order-monitoring-evidence-lambda-errors chuyển từ OK sang ALARM lúc 21:02:21 UTC, tương ứng 14/11/2026 04:02:21 UTC+07:00. Email trong hộp thư xác nhận thông báo ALARM đã được nhận, phù hợp với trạng thái alarm trên CloudWatch. Mốc datapoint không phải thời điểm chính xác Lambda phát sinh lỗi, nên chưa dùng để tính độ trễ phát hiện lỗi hoặc độ trễ gửi email.
 
-[Email ALARM Lambda](/Intership-Report/images/5-Workshop/5.6-Monitoring/lambda-alarm-20261114-044826-a961f7/h10.png)
+[Email ALARM Lambda](/Internship-Report/images/5-Workshop/5.6-Monitoring/lambda-alarm-20261114-044826-a961f7/h10.png)
 
 **Email ALARM DLQ.** Email ghi datapoint 1 tại 13/11/2026 20:59 UTC, chuyển ALARM lúc 21:01:06 UTC. Datapoint này có trước lần gửi thông điệp mới trong DLQ của lần thử này; diễn giải là cảnh báo backlog đã tồn tại, không quy chuyển trạng thái này cho riêng thông điệp mới.
 
-[Email cảnh báo DLQ tồn đọng](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h11.png)
+[Email cảnh báo DLQ tồn đọng](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h11.png)
 
 ## Dựng lại thứ tự từ các mốc đã ghi
 

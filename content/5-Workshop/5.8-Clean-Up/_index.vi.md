@@ -44,7 +44,7 @@ Kiểm tra lần triển khai mới nhất của stack đã có trạng thái `D
 aws cloudformation list-stacks --region ap-southeast-1 --query "StackSummaries[?StackName=='order-system'].[StackName,StackStatus,CreationTime]" --output table --no-cli-pager
 ```
 
-![Kết quả xóa stack](/Intership-Report/images/5-Workshop/5.8-Cleanup/delete-stack.png)
+![Kết quả xóa stack](/Internship-Report/images/5-Workshop/5.8-Cleanup/delete-stack.png)
 
 ## 2. Xóa log group của Lambda
 
@@ -91,7 +91,7 @@ Remove-Item Env:API_KEY, Env:CUSTOMER_EMAIL -ErrorAction SilentlyContinue
 2. Vào **Billing and Cost Management** → **Cost Explorer**, kiểm tra lại sau 1 đến 2 ngày để chắc chắn không còn phí mới từ các tài nguyên đã xóa.
 3. Giữ lại ngân sách trong **AWS Budgets** nếu bạn còn dùng tài khoản này.
 
-![Kiểm tra chi phí](/Intership-Report/images/5-Workshop/5.8-Cleanup/cost-check.png)
+![Kiểm tra chi phí](/Internship-Report/images/5-Workshop/5.8-Cleanup/cost-check.png)
 
 ## 7. Checklist dọn dẹp
 

@@ -72,6 +72,6 @@ Read the status and body. The async route should return 202 with the ID just sen
 
 **Supplementary deployment:** order-api-evidence reuses order-orchestration-evidence resources. The evidence below is from November 13, 2026.
 
-![Deployment of comparison APIs](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-api-deploy-success.png)
+![Deployment of comparison APIs](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-api-deploy-success.png)
 
 <!-- evidence-deployment:end -->

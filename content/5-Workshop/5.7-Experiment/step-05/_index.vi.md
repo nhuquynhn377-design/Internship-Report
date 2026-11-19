@@ -15,11 +15,11 @@ Mỗi phương án đo **20 yêu cầu**, đồng thời **1**, nghỉ **1.500 m
 
 ### Kết quả đồng bộ
 
-![Kết quả đồng bộ với 20 đơn](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-sync-20.png)
+![Kết quả đồng bộ với 20 đơn](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-sync-20.png)
 
 ### Kết quả bất đồng bộ
 
-[Kết quả bất đồng bộ với 20 đơn](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-async-20.png)
+[Kết quả bất đồng bộ với 20 đơn](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-async-20.png)
 
 ### So sánh
 
@@ -37,7 +37,7 @@ Mỗi phương án đo **20 yêu cầu**, đồng thời **1**, nghỉ **1.500 m
 | Hoàn tất xấp xỉ trung bình (ms) | 122,75 | 445,55 |
 | Hoàn tất xấp xỉ P95 (ms) | 138 | 516 |
 
-[Bảng so sánh cùng điều kiện cấu hình](/Intership-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-summary.png)
+[Bảng so sánh cùng điều kiện cấu hình](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/comparison-summary.png)
 
 **Nhận xét:** API bất đồng bộ phản hồi nhanh hơn trong lần đo này; thời gian hoàn tất xấp xỉ dài hơn. HTTP 202 xác nhận tiếp nhận; DONE được kiểm tra riêng trong DynamoDB. Độ trễ API đo tại máy khách, không tính khoảng nghỉ. Thời gian hoàn tất dùng createdAt và doneAt của ứng dụng, có mốc đo khác API; không phải thời gian email đến hộp thư hoặc duration chính xác của Step Functions.
 

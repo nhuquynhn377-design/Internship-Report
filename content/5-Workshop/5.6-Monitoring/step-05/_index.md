@@ -13,31 +13,31 @@ The test message contains run ID **mon56-20261114-040056-316515**. Dashboard/ala
 
 **Supplementary dashboard.** All four widgets and legends are visible; the DLQ already shows a value of 1 before the test. ExecutionsFailed is 0 in the dashboard capture; a separate alarm-detail capture records 1. The dashboard snapshot does not establish the final outcome of all executions.
 
-![Supplementary dashboard](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h5.png)
+![Supplementary dashboard](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h5.png)
 
 **Step Functions.** order-monitoring-evidence-sfn-failed is ALARM and ExecutionsFailed reaches 1.
 
-[Step Functions alarm](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h6.png)
+[Step Functions alarm](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h6.png)
 
 **Lambda.** order-monitoring-evidence-lambda-errors is ALARM and Errors reaches 1. The metric screenshot alone does not identify the cause or MessageId of the failed invocation.
 
-[Lambda Errors alarm](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h7.png)
+[Lambda Errors alarm](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h7.png)
 
 **DLQ.** order-orchestration-evidence-OrdersDLQ-Kbv9OO2FitbU contains not-json-mon56-20261114-040056-316515. An older message is also visible. Receive count is not treated as an exact Lambda attempt count because console receives can also affect it.
 
-[Test message in the DLQ](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h8.png)
+[Test message in the DLQ](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h8.png)
 
 **Step Functions ALARM email.** The email records datapoint 1 at November 13, 2026, 21:02 UTC and transition to ALARM at 21:03:44 UTC. This establishes receipt of a CloudWatch notification. The screenshots lack the corresponding execution failure timestamp needed to calculate detection latency.
 
-[Step Functions ALARM email](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h9.png)
+[Step Functions ALARM email](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h9.png)
 
 **Lambda ALARM email.** The CloudWatch email reports an Errors datapoint of 1 at November 13, 2026, 21:01:00 UTC, exceeding the threshold of 0. Alarm order-monitoring-evidence-lambda-errors transitions from OK to ALARM at 21:02:21 UTC, corresponding to November 14, 2026, 04:02:21 UTC+07:00. The inbox screenshot establishes receipt of the ALARM notification, consistent with the CloudWatch alarm state. The datapoint timestamp is not the exact Lambda failure time and is not used to calculate detection or email-delivery latency.
 
-[Lambda ALARM email](/Intership-Report/images/5-Workshop/5.6-Monitoring/lambda-alarm-20261114-044826-a961f7/h10.png)
+[Lambda ALARM email](/Internship-Report/images/5-Workshop/5.6-Monitoring/lambda-alarm-20261114-044826-a961f7/h10.png)
 
 **DLQ ALARM email.** It records datapoint 1 at November 13, 2026, 20:59 UTC and ALARM at 21:01:06 UTC. That datapoint predates the newly sent message shown in the DLQ. Interpret it as notification of existing backlog, not a transition caused specifically by the new message.
 
-[DLQ backlog ALARM email](/Intership-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h11.png)
+[DLQ backlog ALARM email](/Internship-Report/images/5-Workshop/5.6-Monitoring/evidence-20261114-043035-985e31/h11.png)
 
 ## Reconstruct the sequence from recorded times
 

@@ -315,4 +315,4 @@ $path = Join-Path $PWD.Path 'monitoring.template.json'
 
 The original environment-specific template is retained as a reference.
 
-[monitoring.template.json](/Intership-Report/downloads/5.6-Monitoring/evidence-20261114-043035-985e31/monitoring.template.json)
+[monitoring.template.json](/Internship-Report/downloads/5.6-Monitoring/evidence-20261114-043035-985e31/monitoring.template.json)

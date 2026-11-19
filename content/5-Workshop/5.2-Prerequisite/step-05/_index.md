@@ -13,7 +13,7 @@ pre: " <b> 5.2.5 </b> "
 2. Choose *Zero spend budget* or *Monthly cost budget* (for example, 5 USD).
 3. Enter the email to receive alerts.
 
-![Create budget](/Intership-Report/images/5-Workshop/5.2-Prerequisite/004.png)
+![Create budget](/Internship-Report/images/5-Workshop/5.2-Prerequisite/004.png)
 
 <!-- workshop-detail:v1:begin -->
 ## Purpose of a budget
