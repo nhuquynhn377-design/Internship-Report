@@ -5,31 +5,37 @@ weight: 1
 chapter: false
 pre: " <b> 5.1 </b> "
 ---
+
+<!-- workshop-split:v1 -->
+
 ## Overview
 
 In an e-commerce application, placing an order triggers several downstream tasks: recording the order, sending a confirmation email, and notifying administrators. If all of these are handled within the same request (synchronously), the system slows down easily as order volume grows, and a failure in a secondary service can cause lost orders or duplicate emails.
 
 This workshop builds an order-processing flow that is **event-driven, fault-tolerant, and observable** on AWS, then runs measurements to compare it against a synchronous approach.
 
-## What you will do
+<!-- workshop-detail:v1:begin -->
+## The problem to solve
 
-- Decouple order intake from order processing using **Amazon SQS** and a dead-letter queue (**DLQ**)
-- Prevent duplicate processing with **Amazon DynamoDB** (idempotency)
-- Orchestrate the email and notification workflow with **AWS Step Functions**, **Amazon SES**, and **Amazon SNS**
-- Monitor the system and receive alerts with **Amazon CloudWatch**
-- Simulate failures and load to evaluate the effectiveness of the architecture
+A synchronous API may wait for database writes and email submission before responding. A slow or failing task can delay the response or return an error. If the visitor retries, the application must distinguish a new order from another attempt to submit the same order.
 
-## Architecture
+An asynchronous design separates acceptance from completion. The API places a request in a queue, while downstream components continue processing it. This requires clear order states, duplicate controls and observable failures.
 
-{{< figure src="/images/5-Workshop/5.1-Introduction/0011.png" alt="Overall architecture" >}}
+## Design principles
 
-## Evaluation metrics
+- **Track by order ID:** correlate requests, database records and executions using the same identifier.
+- **Expect redelivery:** SQS Standard does not guarantee that a message is delivered only once.
+- **Persist processing state:** acceptance is not completion.
+- **Use multiple evidence sources:** combine logs, DynamoDB, execution history and received email.
 
-- Response time of the order API (average, p95)
-- Rate of orders lost when failures occur
-- Number of duplicate emails sent
-- Time from when a failure occurs until an administrator receives an alert
+The four subsections explain the intended deliverables, architecture, evaluation approach and time/cost plan. Understand the design before deploying resources. This introductory section does not require additional Console screenshots or new resources.
+<!-- workshop-detail:v1:end -->
 
-## Duration and cost
+## Workshop steps
 
-Approximately 2–3 hours. Most services fall within the free tier or incur very low costs at test scale. Be sure to perform the cleanup step at the end to avoid incurring charges.
+Open a page below or use the sidebar. Follow the steps in order.
+
+- [5.1.1 What you will do](step-01/)
+- [5.1.2 Architecture](step-02/)
+- [5.1.3 Evaluation metrics](step-03/)
+- [5.1.4 Duration and cost](step-04/)

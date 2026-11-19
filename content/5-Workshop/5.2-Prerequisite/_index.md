@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 5.2 </b> "
 ---
 
+<!-- workshop-split:v1 -->
+
 ## Prerequisites
 
 - An AWS account for experimentation (do not use a production account)
@@ -13,124 +15,35 @@ pre: " <b> 5.2 </b> "
 - A Windows computer with PowerShell and Git installed
 - Region used throughout the workshop: **Asia Pacific (Singapore) `ap-southeast-1`**
 
-#### 1. IAM permissions
+<!-- workshop-detail:v1:begin -->
+## Purpose of preparation
 
-Create the following policy and attach it to the user you use to deploy the workshop
-(IAM → Policies → Create policy → *JSON* tab → paste the content → name it `OrderWorkshopDeployPolicy`).
+Preparation ensures that later deployment steps use the intended identity, Region and tools. This helps distinguish architecture problems from missing permissions, unverified email identities or an incomplete local setup.
 
-```json
+## Consistent settings
 
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "WorkshopServices",
-      "Effect": "Allow",
-      "Action": [
-        "cloudformation:*",
-        "lambda:*",
-        "sqs:*",
-        "dynamodb:*",
-        "states:*",
-        "sns:*",
-        "ses:*",
-        "cloudwatch:*",
-        "logs:*",
-        "events:*",
-        "s3:*"
-      ],
-      "Resource": "*"
-    },
-    {
-      "Sid": "WorkshopIam",
-      "Effect": "Allow",
-      "Action": [
-        "iam:CreateRole",
-        "iam:DeleteRole",
-        "iam:GetRole",
-        "iam:PassRole",
-        "iam:TagRole",
-        "iam:UntagRole",
-        "iam:AttachRolePolicy",
-        "iam:DetachRolePolicy",
-        "iam:PutRolePolicy",
-        "iam:DeleteRolePolicy",
-        "iam:GetRolePolicy",
-        "iam:ListRolePolicies",
-        "iam:ListAttachedRolePolicies"
-      ],
-      "Resource": "*"
-    }
-  ]
-}
+| Setting | Workshop convention |
+|---|---|
+| Region | Singapore, ap-southeast-1 |
+| Account | An authorized account for the lab |
+| CLI profile | Use the configured profile consistently, for example order-workshop |
+| Email | Sender and recipient meet SES requirements in the selected Region |
+| Project folders | Keep AWS application code separate from Hugo documentation |
 
-```
+Changing the Console Region does not change the CLI Region. Specify --region ap-southeast-1 when checking resources. IAM is global; resources such as SQS, Lambda, DynamoDB and Step Functions, as well as SES sandbox status, are Region-specific.
 
-> This policy is broad for the convenience of the test environment. For a real environment,
-> restrict the `Resource` to each specific resource.
+## Ready to continue
 
+Version checks return successfully, STS identifies the intended account, test email is ready, deployment permissions are available and code/evidence have a known location. Preparation screenshots can come from a single check; creating extra resources just for illustrations is unnecessary.
+<!-- workshop-detail:v1:end -->
 
-![Create IAM policy](/images/5-Workshop/5.2-Prerequisite/001.png)
+## Workshop steps
 
-#### 2. Install the tools
+Open a page below or use the sidebar. Follow the steps in order.
 
-Open PowerShell and run:
-```powershell
-winget install -e --id OpenJS.NodeJS.LTS
-winget install -e --id Amazon.AWSCLI
-winget install -e --id Amazon.SAM-CLI
-```
-
-
-Close and reopen PowerShell, then verify:
-
-```powershell
-node -v
-aws --version
-sam --version
-```
-#### 3. Connect your computer to your AWS account
-
-1. Go to IAM → Users → select the user → *Security credentials* → *Create access key*
-   (use case: Command Line Interface).
-2. Configure the profile:
-```powershell
-aws configure --profile order-workshop
-$env:AWS_PROFILE = "order-workshop"
-aws sts get-caller-identity
-```
-
-Enter the Access Key, Secret Key, region `ap-southeast-1`, and output `json`.
-The result of the last command should display your account information.
-
-![Verify identity](/images/5-Workshop/5.2-Prerequisite/002.png)
-
->Do not push the Access Key to GitHub. Delete or deactivate the key after you finish the workshop.
-
-
-#### 4. Verify your email in Amazon SES
-
-A new SES account is in *sandbox* mode: it can only send emails *from and to* verified addresses.
-
-1. Go to *Amazon SES* → *Identities* → *Create identity*.
-2. Choose *Email address*, enter your email, and select *Create identity*.
-3. Open the verification email from AWS and click the link.
-4. The identity status changes to *Verified*.
-
-![SES verified](/images/5-Workshop/5.2-Prerequisite/003.png)
-
-#### 5. Set up a cost alert
-
-1. Go to *Billing and Cost Management* → *Budgets* → *Create budget*.
-2. Choose *Zero spend budget* or *Monthly cost budget* (for example, 5 USD).
-3. Enter the email to receive alerts.
-
-![Create budget](/images/5-Workshop/5.2-Prerequisite/004.png)
-
-#### 6. Create the project folder
-```powershell
-mkdir order-system
-cd order-system
-mkdir src
-```
-In the following sections, we will add`template.yaml` and the Lambda source code to this folder.
+- [5.2.1 IAM permissions](step-01/)
+- [5.2.2 Install the tools](step-02/)
+- [5.2.3 Connect your computer to your AWS account](step-03/)
+- [5.2.4 Verify your email in Amazon SES](step-04/)
+- [5.2.5 Set up a cost alert](step-05/)
+- [5.2.6 Create the project folder](step-06/)
