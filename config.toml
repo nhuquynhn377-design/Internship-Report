@@ -1,3 +1,4 @@
+baseURL = "https://nhuquynhn377-design.github.io/Internship-Report/"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
@@ -10,8 +11,8 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = ""
-  description = ""
-  author = "journeyoftheaverageguy@gmail.com"
+  description = "Bao cao thuc tap-First Cloud AI Journey"
+  author = "nhuquynhn377@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
