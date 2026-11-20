@@ -13,7 +13,7 @@ pre: " <b> 5.3.3 </b> "
 2. Bạn thấy hai hàng đợi có tên bắt đầu bằng `order-system-`.
 3. Mở hàng đợi chính → tab **Dead-letter queue**: hàng đợi lỗi đã được gắn, **Maximum receives = 3**.
 
-![Hàng đợi SQS](/Internship-Report/images/5-Workshop/5.3-SQS-DLQ/queues.png)
+![Hàng đợi SQS](/Internship-Report/images/5-Workshop/5.3-sqs-dlq/queues.png)
 
 ## So sánh giá trị đang chạy với mẫu đã triển khai
 
