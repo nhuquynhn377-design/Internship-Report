@@ -49,7 +49,7 @@ aws sqs get-queue-attributes --queue-url $dlq --attribute-names ApproximateNumbe
 
 Or go to the Console → the DLQ queue → **Send and receive messages** → **Poll for messages**.
 
-![Message in the DLQ](/Internship-Report/images/5-Workshop/5.3-sqs-dlq/dlq-message.PNGs)
+![Message in the DLQ](/Internship-Report/images/5-Workshop/5.3-sqs-dlq/dlq-message.png)
 
 > SQS metrics are approximate and may be delayed by several tens of seconds.
 

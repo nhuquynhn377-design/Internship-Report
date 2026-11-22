@@ -11,15 +11,15 @@ pre: " <b> 5.7.6 </b> "
 
 Đơn **dup-proof-20261113-220937-a7468d** được gửi cùng nội dung **5 lần** vào SQS. Kết quả: execution **SUCCEEDED**, **1** tác vụ SES thành công trong execution, DynamoDB **DONE**, **emailCount = 1**.
 
-![Kết quả kiểm tra gửi trùng](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-validation.png)
+![Kết quả kiểm tra gửi trùng](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-validation.png)
 
 Log ghi nhận bỏ qua đơn trùng. Hai dòng báo khởi động không chứng minh có hai execution: Standard StartExecution cùng tên và input khi execution đang chạy có thể trả về execution hiện có.
 
-[Log bỏ qua đơn trùng](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-skip-logs.png)
+[Log bỏ qua đơn trùng](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-skip-logs.png)
 
 Hộp thư nhận email xác nhận đúng mã đơn. Kết quả hỗ trợ chống trùng trong lần thử này; không bảo đảm email được gửi đúng một lần trong mọi tình huống lỗi.
 
-[Email xác nhận thực nhận](/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-confirmation-email.png)
+[Email xác nhận thực nhận](/Internship-Report/images/5-Workshop/5.7-Experiments/evidence-20261113-234400-f48a26/duplicate-confirmation-email.png)
 
 ## Thử lại một đơn và giữ nguyên danh tính
 
