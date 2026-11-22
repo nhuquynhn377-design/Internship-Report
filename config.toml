@@ -14,8 +14,8 @@ home = [ "HTML", "RSS", "JSON"]
   description = "Bao cao thuc tap-First Cloud AI Journey"
   author = "nhuquynhn377@gmail.com"
   showVisitedLinks = true
-  disableBreadcrumb = false
-  disableNextPrev = false
+  disableBreadcrumb = true
+  disableNextPrev = true
   
 [Languages]
 [Languages.en]
