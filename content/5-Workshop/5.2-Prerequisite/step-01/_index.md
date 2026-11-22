@@ -66,7 +66,7 @@ Set-Clipboard -Value $policyJson
 > restrict the `Resource` to each specific resource.
 
 
-![Create IAM policy]( /Internship-Report/images/5-Workshop/5.2-Prerequisite/001.png)
+![Create IAM policy](/Internship-Report/images/5-Workshop/5.2-Prerequisite/001.png)
 
 
 <!-- workshop-detail:v1:begin -->
