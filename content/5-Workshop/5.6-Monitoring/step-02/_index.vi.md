@@ -315,4 +315,4 @@ $path = Join-Path $PWD.Path 'monitoring.template.json'
 
 Template tĩnh của lần thực nghiệm gốc được lưu cùng bộ tài liệu.
 
-[monitoring.template.json](/Internship-Report/downloads/5.6-Monitoring/evidence-20261114-043035-985e31/monitoring.template.json)
+[monitoring.template.json](/Internship-Report/downloads/5.6-monitoring/evidence-20261114-043035-985e31/monitoring.template.json)
