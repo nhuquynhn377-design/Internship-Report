@@ -21,7 +21,7 @@ Quy trình:
 3. Thành công: cập nhật trạng thái `DONE`.
 4. Thất bại: cập nhật `FAILED`, gửi cảnh báo qua SNS, kết thúc ở trạng thái lỗi.
 
-![Sơ đồ quy trình](/images/5-Workshop/5.5-Orchestration/workflow.png)
+![Sơ đồ quy trình](/Internship-ReportS/images/5-Workshop/5.5-Orchestration/workflow.png)
 
 ## Các phần thực hành
 

@@ -21,7 +21,7 @@ Workflow:
 3. On success: update the status to `DONE`.
 4. On failure: update the status to `FAILED`, send an alert through SNS, and end in a failed state.
 
-![Workflow diagram](/images/5-Workshop/5.5-Orchestration/workflow.png)
+![Workflow diagram](/Internship-Report/images/5-Workshop/5.5-Orchestration/workflow.png)
 
 ## Workshop steps
 
