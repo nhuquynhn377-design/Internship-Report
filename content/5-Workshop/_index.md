@@ -43,4 +43,4 @@ An optional product-page screenshot can introduce the demonstration. There is no
 - [5.5 Orchestration and Notifications](5.5-Orchestration/)
 - [5.6 Monitoring](5.6-Monitoring/)
 - [5.7 Fault and Load Experiments](5.7-Experiment/)
-- [5.8 Clean up](5.8-Clean-Up/)
+- [5.8 Clean up](5.8-Cleanup/)

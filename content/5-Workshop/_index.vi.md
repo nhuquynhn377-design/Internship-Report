@@ -57,4 +57,4 @@ Các phần thực hành đi từ chuẩn bị môi trường đến kiểm th�
 - [5.5 Điều phối và thông báo](5.5-Orchestration/)
 - [5.6 Giám sát](5.6-Monitoring/)
 - [5.7 Thực nghiệm lỗi và tải](5.7-Experiment/)
-- [5.8 Clean up](5.8-Clean-Up/)
+- [5.8 Clean up](5.8-Cleanup/)
